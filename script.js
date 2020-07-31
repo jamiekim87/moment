@@ -1,11 +1,3 @@
-// Display the current date on the page
-$('#currentDay').html(moment().format('dddd, MMMM Do, YYYY'));
-
-
-const currentTime = moment().format('h');
-console.log(currentTime)
-
-// $(selector).siblings(filter)
 $(document).ready(function (){
 
     $(".saveBtn").click(function() {
@@ -29,7 +21,6 @@ $(document).ready(function (){
 
     let currentHour = parseInt(moment().format("H"))
 
-// indicate whether it is in the past, present, or future
     $(".time-block").each(function () {
        let timeBlock = parseInt($(this).attr("id"))
         if(timeBlock === currentHour){
