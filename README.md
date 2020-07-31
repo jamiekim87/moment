@@ -37,6 +37,6 @@ The URL of the deployed application.
 The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 
-#URL of the deployed application: 
+#URL of the deployed application: https://jamiekim87.github.io/moment/
 
 #Screenshot is added.x
